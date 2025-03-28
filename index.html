@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <dialog class="Emodal">
+        <form class="Eform">
+            <h2 style="font-family: sans-serif; color: #808080;">TASK</h2>
+            <label>Title</label>
+            <br>
+            <input name="Ename" class="Ename" type="text" placeholder="Placeholder text">
+            <br>
+            <label>Description</label>
+            <br>
+            <textarea name="EDescription" class="Edis" placeholder="Placeholder text"></textarea>
+            <br>
+            <button style="background-color: #2196F3; color: white; padding: 5px 10px; border: 1px solid #2196F3; border-radius: 5px;" type="submit">Save</button>
+            <button class="EConcel" style="color: #2196F3; background-color: white; padding: 5px 10px; border: 1px solid #2196F3; border-radius: 5px;" type="button">Concel</button>
+        </form>
+    </dialog>
+    <dialog class="modal">
+        <form class="form">
+            <h2 style="font-family: sans-serif; color: #808080;">TASK</h2>
+            <label>Title</label>
+            <br>
+            <input name="name" class="name" type="text" placeholder="Placeholder text">
+            <br>
+            <label>Description</label>
+            <br>
+            <textarea name="Description" class="dis" placeholder="Placeholder text"></textarea>
+            <br>
+            <button style="background-color: #2196F3; color: white; padding: 5px 10px; border: 1px solid #2196F3; border-radius: 5px;" type="submit">Save</button>
+            <button class="Concel" style="color: #2196F3; background-color: white; padding: 5px 10px; border: 1px solid #2196F3; border-radius: 5px;" type="button">Concel</button>
+        </form>
+    </dialog>
+    <dialog class="information">
+        <h2 class="names"></h2>
+        <h2 class="infor"></h2>
+        <h2 class="ids"></h2>
+        <button class="btnConcel">Concel</button>
+    </dialog>
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-left: 30px; padding-right: 30px;">
+        <h1 style="font-family: sans-serif; font-size: 40px;">TODO</h1>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <input type="text" class="Search" placeholder="Search...">
+            <select class="select">
+                <option value="all">All</option>
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <button class="addbtn">+</button>
+            <button class="sort">🔄️</button>
+        </div>
+    </div>
+    <div class="box"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
